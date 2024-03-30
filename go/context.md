@@ -1,0 +1,1 @@
+Using this repo as a way to study go language interactions with aws cloud
