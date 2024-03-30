@@ -6,6 +6,8 @@ cd terraform
 
 terraform init
 
+terraform validate
+
 terraform apply -target=aws_s3_bucket.this --auto-approve
 echo
 echo
