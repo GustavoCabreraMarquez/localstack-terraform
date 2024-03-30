@@ -27,4 +27,10 @@ func main() {
 	for _, object := range output.Contents {
 		log.Printf("key=%s size=%d", aws.ToString(object.Key), object.Size)
 	}
+
+	// req, resp = client.ListBucketsRequest(params)
+
+	// err := req.Send()
+	// if err == nil { // resp is now filled
+    // fmt.Println(resp)
 }
